@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Repair Cream - GlowSkin Naturals</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="product-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h2>GlowSkin Naturals</h2>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../home.html" class="nav-link">Home</a></li>
+                    <li><a href="../products.html" class="nav-link">Products</a></li>
+                </ul>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <div class="container">
+                <div class="product-detail-grid">
+                    <div class="product-image-section">
+                        <div class="main-product-image">
+                            <img src="../images/Night Repair Cream.jpg" alt="Night Repair Cream" id="main-image">
+                        </div>
+                        <div class="image-thumbnails">
+                            <img src="../images/Night Repair Cream.jpg" alt="Night Repair Cream" class="thumbnail active" onclick="changeImage('../images/Night Repair Cream.jpg')">
+                            </div>
+                    </div>
+                    
+                    <div class="product-info-section">
+                        <nav class="breadcrumb">
+                            <a href="../home.html">Home</a> > 
+                            <a href="../products.html">Products</a> > 
+                            <span>Night Repair Cream</span>
+                        </nav>
+                        
+                        <h1>Night Repair Cream</h1>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-text">(156 Reviews)</span>
+                        </div>
+                        
+                        <div class="product-price">
+                            <span class="current-price">₹2,799</span>
+                            <span class="original-price">₹3,499</span>
+                            <span class="discount">20% OFF</span>
+                        </div>
+                        
+                        <div class="product-description">
+                            <p>Transform your skin overnight with our intensive Night Repair Cream. This luxurious formula works while you sleep to repair, regenerate, and restore your skin's natural radiance.</p>
+                            
+                            <div class="key-benefits">
+                                <h3>Key Benefits:</h3>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Overnight skin repair and renewal</li>
+                                    <li><i class="fas fa-check"></i> Reduces fine lines and wrinkles</li>
+                                    <li><i class="fas fa-check"></i> Deeply moisturizes and nourishes</li>
+                                    <li><i class="fas fa-check"></i> Improves skin texture and tone</li>
+                                    <li><i class="fas fa-check"></i> Wake up to glowing skin</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="ingredients">
+                                <h3>Key Ingredients:</h3>
+                                <p><strong>Retinol:</strong> Promotes cell turnover<br>
+                                <strong>Peptides:</strong> Stimulate collagen production<br>
+                                <strong>Niacinamide:</strong> Brightens and smooths<br>
+                                <strong>Jojoba Oil:</strong> Deep nourishment</p>
+                            </div>
+                            
+                            <div class="how-to-use">
+                                <h3>How to Use:</h3>
+                                <p>Apply generously to clean face and neck before bedtime. Massage gently until absorbed. Use 3-4 times per week initially, then nightly as tolerated.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <label>Quantity:</label>
+                                <button onclick="decreaseQty()">-</button>
+                                <span id="quantity">1</span>
+                                <button onclick="increaseQty()">+</button>
+                            </div>
+                            
+                            <button class="btn btn--primary add-to-cart">Add to Cart</button>
+                            <button class="btn btn--secondary wishlist-btn">
+                                <i class="fas fa-heart"></i> Add to Wishlist
+                            </button>
+                        </div>
+                        
+                        <div class="product-guarantee">
+                            <div class="guarantee-item">
+                                <i class="fas fa-shipping-fast"></i>
+                                <span>Free shipping on orders over ₹1,999</span>
+                            </div>
+                            <div class="guarantee-item">
+                                <i class="fas fa-undo"></i>
+                                <span>30-day money-back guarantee</span>
+                            </div>
+                            <div class="guarantee-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>Dermatologist tested & approved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-products">
+            <div class="container">
+                <h2>You May Also Like</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/Vitamin C Serum.jpg" alt="Vitamin C Serum">
+                        </div>
+                        <div class="product-info">
+                            <h3>Vitamin C Serum</h3>
+                            <p>Brightening serum for morning routine</p>
+                            <div class="product-price">₹2,399</div>
+                            <a href="product-vitamin-c-serum.html" class="btn btn--primary">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/Moisturizing Cream.jpg" alt="Moisturizing Cream">
+                        </div>
+                        <div class="product-info">
+                            <h3>Moisturizing Cream</h3>
+                            <p>Daily hydration for all skin types</p>
+                            <div class="product-price">₹1,999</div>
+                            <a href="product-moisturizing-cream.html" class="btn btn--primary">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/Gentle Cleanser.jpg" alt="Gentle Cleanser">
+                        </div>
+                        <div class="product-info">
+                            <h3>Gentle Cleanser</h3>
+                            <p>Perfect for evening cleansing routine</p>
+                            <div class="product-price">₹1,599</div>
+                            <a href="product-gentle-cleanser.html" class="btn btn--primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> hello@glowskin.com</p>
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Lane, Mumbai, Maharashtra 400001</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GlowSkin Naturals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let quantity = 1;
+        
+        function changeImage(src) {
+            document.getElementById('main-image').src = src;
+            document.querySelectorAll('.thumbnail').forEach(thumb => thumb.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+        
+        function increaseQty() {
+            quantity++;
+            document.getElementById('quantity').textContent = quantity;
+        }
+        
+        function decreaseQty() {
+            if (quantity > 1) {
+                quantity--;
+                document.getElementById('quantity').textContent = quantity;
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('.add-to-cart').addEventListener('click', function() {
+                alert(`Added ${quantity} Night Repair Cream(s) to cart!`);
+                this.textContent = 'Added to Cart!';
+                setTimeout(() => {
+                    this.textContent = 'Add to Cart';
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>
